@@ -14,6 +14,21 @@ end
 
 Exercício 2:
 
+print("Digite a quantidade de elementos (N):")
+local n = tonumber(io.read())
+
+local elementos = {}
+
+for i = 1, n do
+    print("Digite o " .. i .. ":")
+    elementos[i] = tonumber(io.read())
+
+end
+
+print("Digite o número X a ser buscado:")
+local x = tonumber(io.read())
+
+
 Exercício 3:
 
 Exercício 4:
