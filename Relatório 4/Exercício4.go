@@ -1,0 +1,21 @@
+package main
+import "fmt"
+
+func gerarEscalaPlantao(n int) {
+	fmt.Println("--- Escala de Plantao Tecnico ---")
+
+	dia := 1
+	for i := 1; i <= n; i++ {
+		fmt.Printf("Plantao %d: Dia %d do mes\n", i, dia)
+		dia += 4
+	}
+}
+func main() {
+	var quant int
+
+	fmt.Print("Digite a quantidade de plantoes necessarios: ")
+	fmt.Scanln(&quant)
+
+	fmt.Println()
+	gerarEscalaPlantao(quant)
+}
