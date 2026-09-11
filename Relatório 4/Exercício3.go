@@ -12,7 +12,6 @@ func gerarEscalaPlantao(n int) {
 }
 func main() {
 	var quant int
-
 	fmt.Print("Digite a quantidade de plantoes necessarios: ")
 	fmt.Scanln(&quant)
 
